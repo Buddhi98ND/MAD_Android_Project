@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Employee Management</string>
+    <string name="Username">Usename</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="admin_login">Admin Login</string>
+</resources>
