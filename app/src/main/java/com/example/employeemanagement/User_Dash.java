@@ -9,6 +9,8 @@ import android.widget.Button;
 
 public class User_Dash extends AppCompatActivity {
 
+    Button tsk_btn;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,5 +18,18 @@ public class User_Dash extends AppCompatActivity {
         setContentView(R.layout.activity_user__dash);
 
 
-        }
+        tsk_btn = findViewById(R.id.button5);
+
+        tsk_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), TaskStatus.class);
+                startActivity(intent);
+            }
+        });
+
+
+    }
 }
+
+

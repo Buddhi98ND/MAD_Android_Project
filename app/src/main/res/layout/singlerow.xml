@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="8dp"
+    android:elevation="5dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="376dp"
+        android:layout_height="86dp"
+        android:layout_gravity="left"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="#6495ed">
+
+        <LinearLayout
+            android:layout_width="365dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingTop="20dp">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="96dp"
+                android:layout_height="38dp"
+                app:srcCompat="@drawable/ic_baseline_assignment_24" />
+
+            <TextView
+                android:id="@+id/tasknum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:gravity="left"
+                android:paddingLeft="20dp"
+                android:text="Task Message"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
