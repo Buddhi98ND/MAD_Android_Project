@@ -1,5 +1,6 @@
 package com.example.employeemanagement;
 
+
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -13,10 +14,14 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
@@ -27,8 +32,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     FirebaseAuth mAuth;
 
+    private DatabaseReference mDatabase;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+        mDatabase = FirebaseDatabase.getInstance().getReference().child("Salary");
+        FirebaseDBLayer.getInstance();
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
@@ -40,7 +51,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         findViewById(R.id.button1).setOnClickListener(this);
 
-//
 
         button2 = findViewById(R.id.button2);
         button2.setOnClickListener(new View.OnClickListener(){
@@ -59,7 +69,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(i);
             }
         });
-
 
     }
 
