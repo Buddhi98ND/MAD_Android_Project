@@ -4,4 +4,7 @@
     <string name="username">Username</string>
     <string name="password">Password</string>
     <string name="admin_login">Admin Login</string>
+    <string name="create_an_new_account">Create An New Account</string>
+    <string name="new_user_sign_up">New User? Sign up</string>
+    <string name="postition">Postition</string>
 </resources>
