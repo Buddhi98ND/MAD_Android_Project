@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Admin_Dash"></activity>
+
+        <activity android:name=".VeiweLeaveDetails"></activity>
+        <activity android:name=".Request_List" />
+        <activity android:name=".Update_Leave" />
+        <activity android:name=".Manage_Leave" />
+        <activity android:name=".Request_Leave" />
+        <activity android:name=".Admin_Dash" />
         <activity android:name=".User_Dash" />
         <activity android:name=".MainActivity">
             <intent-filter>
