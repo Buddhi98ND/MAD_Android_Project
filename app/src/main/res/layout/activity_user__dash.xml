@@ -35,7 +35,7 @@
         android:layout_width="218dp"
         android:layout_height="48dp"
         android:layout_marginStart="161dp"
-        android:layout_marginTop="248dp"
+        android:layout_marginTop="264dp"
         android:layout_marginEnd="262dp"
         android:text="Salary Details"
         app:layout_constraintEnd_toEndOf="parent"
@@ -44,7 +44,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/leavebtn"
         android:layout_width="218dp"
         android:layout_height="48dp"
         android:layout_marginStart="161dp"
@@ -57,7 +57,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/submit"
         android:layout_width="218dp"
         android:layout_height="48dp"
         android:layout_marginStart="161dp"

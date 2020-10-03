@@ -9,6 +9,7 @@ import android.widget.Button;
 
 public class User_Dash extends AppCompatActivity {
 
+    Button leavebutton;
     Button button;
 
     @Override
@@ -16,6 +17,14 @@ public class User_Dash extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user__dash);
 
+
+        leavebutton = findViewById(R.id.leavebtn);
+
+        leavebutton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getApplicationContext(),Manage_Leave.class);
+              
         button = findViewById(R.id.button);
 
         button .setOnClickListener(new View.OnClickListener(){
@@ -26,6 +35,7 @@ public class User_Dash extends AppCompatActivity {
             @Override
             public void onClick(View v){
                 Intent i = new Intent(getApplicationContext(),EmpDetails.class);
+
                 startActivity(i);
             }
         });
