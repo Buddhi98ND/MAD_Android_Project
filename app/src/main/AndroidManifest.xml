@@ -17,6 +17,22 @@
         <activity android:name=".EditTask" />
         <activity android:name=".TaskView" />
         <activity android:name=".AddNewTask" />
+
+
+        <activity android:name=".VeiweLeaveDetails"></activity>
+        <activity android:name=".Request_List" />
+        <activity android:name=".Update_Leave" />
+        <activity android:name=".Manage_Leave" />
+        <activity android:name=".Request_Leave" />
+        <activity android:name=".Admin_Login"></activity>
+        <activity android:name=".RegisterUser" />
+
+        <activity android:name=".EmpDelete"></activity>
+        <activity android:name=".Employee_list" />
+        <activity android:name=".ShowDetails" />
+        <activity android:name=".EmpDetails" />
+
+
         <activity android:name=".Admin_Dash" />
         <activity android:name=".User_Dash" />
         <activity android:name=".MainActivity">

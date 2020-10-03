@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:elevation="5dp"
+    app:cardCornerRadius="8dp"
+    app:cardUseCompatPadding="true">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_gravity="left"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="#6495ed">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/LeaveName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="25dp"
+                android:gravity="left"
+                android:paddingLeft="20dp"
+                android:text="Message "
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/department"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="25dp"
+                android:gravity="left"
+                android:paddingLeft="20dp"
+                android:text="Message "
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="117dp"
+            android:layout_height="53dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="57dp"
+            app:srcCompat="@drawable/ic_baseline_assignment_late_24" />
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

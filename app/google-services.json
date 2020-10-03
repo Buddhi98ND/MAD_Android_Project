@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "499405837257",
+    "firebase_url": "https://emolyee-88fd5.firebaseio.com",
+    "project_id": "emolyee-88fd5",
+    "storage_bucket": "emolyee-88fd5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499405837257:android:2b7c6fe34a852795884e18",
+        "android_client_info": {
+          "package_name": "com.example.employeemanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "499405837257-jhv8sjc1e6iia69ibjkah1jc7b8qs710.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2N938uwU6dP-l-YpqSZMsumUH-x0UACY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "499405837257-jhv8sjc1e6iia69ibjkah1jc7b8qs710.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
