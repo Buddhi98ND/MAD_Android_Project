@@ -17,6 +17,11 @@ public class User_Dash extends AppCompatActivity {
         setContentView(R.layout.activity_user__dash);
 
         button = findViewById(R.id.button);
+
+        button .setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent i = new Intent(getApplicationContext(),UserProfile.class);
         button.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){

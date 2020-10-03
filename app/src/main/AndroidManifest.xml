@@ -9,10 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
+        <activity android:name=".Admin_Login"></activity>
+        <activity android:name=".RegisterUser" />
+
         <activity android:name=".EmpDelete"></activity>
         <activity android:name=".Employee_list" />
         <activity android:name=".ShowDetails" />
         <activity android:name=".EmpDetails" />
+
         <activity android:name=".Admin_Dash" />
         <activity android:name=".User_Dash" />
         <activity android:name=".MainActivity">
