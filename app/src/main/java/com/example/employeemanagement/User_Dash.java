@@ -24,19 +24,20 @@ public class User_Dash extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(getApplicationContext(),Manage_Leave.class);
-              
-        button = findViewById(R.id.button);
-
-        button .setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v){
-                Intent i = new Intent(getApplicationContext(),UserProfile.class);
-        button.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v){
-                Intent i = new Intent(getApplicationContext(),EmpDetails.class);
-
                 startActivity(i);
+                
+              
+//         button = findViewById(R.id.button);
+
+//         button .setOnClickListener(new View.OnClickListener(){
+//             @Override
+//             public void onClick(View v){
+//                 Intent i = new Intent(getApplicationContext(),UserProfile.class);
+//         button.setOnClickListener(new View.OnClickListener(){
+//             @Override
+//             public void onClick(View v){
+//                 Intent i = new Intent(getApplicationContext(),EmpDetails.class);
+
             }
         });
     }
