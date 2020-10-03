@@ -32,6 +32,8 @@ public class Admin_Dash extends AppCompatActivity {
             @Override
             public void onClick(View v){
                 Intent i = new Intent(getApplicationContext(),Salary_Dash.class);
+                 }
+        });
 
         button10 = findViewById(R.id.button10);
         button10.setOnClickListener(new View.OnClickListener() {
@@ -47,8 +49,9 @@ public class Admin_Dash extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(getApplicationContext(),Request_List.class);
-       
-              
+                   }
+        });
+           
          button7 = findViewById(R.id.button7);
         button7.setOnClickListener(new View.OnClickListener(){
             @Override
