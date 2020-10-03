@@ -95,4 +95,7 @@
         "when a user tries to pick up one of cards.\n\n"
     </string>
     <string name="action_settings">Settings</string>
+    <string name="create_an_new_account">Create An New Account</string>
+    <string name="new_user_sign_up">New User? Sign up</string>
+    <string name="postition">Postition</string>
 </resources>

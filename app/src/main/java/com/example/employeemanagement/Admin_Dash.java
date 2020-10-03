@@ -10,16 +10,24 @@ import android.widget.Button;
 public class Admin_Dash extends AppCompatActivity {
 
     Button leaveReqBtn;
+    Button button7;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_admin__dash);
 
+
         leaveReqBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(getApplicationContext(),Request_List.class);
+        button7 = findViewById(R.id.button7);
+        button7.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent i = new Intent(getApplicationContext(),Employee_list.class);
+
                 startActivity(i);
             }
         });
