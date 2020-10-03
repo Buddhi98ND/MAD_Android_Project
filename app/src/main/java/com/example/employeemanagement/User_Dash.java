@@ -9,7 +9,6 @@ import android.widget.Button;
 
 public class User_Dash extends AppCompatActivity {
 
-   
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,6 +16,5 @@ public class User_Dash extends AppCompatActivity {
         setContentView(R.layout.activity_user__dash);
 
 
-       
-    }
+        }
 }
